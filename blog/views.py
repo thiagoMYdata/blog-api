@@ -16,7 +16,7 @@ class APIUpdatePost(generics.UpdateAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
-class APIDestoryPost(generics.DestroyAPIView):
+class APIDestroyPost(generics.DestroyAPIView):
     queryset = Post.objects.all()
     serializer_class = PostSerializer
 
